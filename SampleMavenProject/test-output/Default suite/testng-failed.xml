@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.SampleMavenProject.DependencyTest">
+      <class name="com.selenium.SampleMavenProject.listeners.TC_001">
         <methods>
-          <include name="orange"/>
-          <include name="white"/>
-          <include name="blue"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.selenium.SampleMavenProject.DependencyTest -->
+      </class> <!-- com.selenium.SampleMavenProject.listeners.TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

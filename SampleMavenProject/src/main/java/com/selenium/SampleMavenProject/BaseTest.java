@@ -31,10 +31,17 @@ public class BaseTest
 	public static String projectPath=System.getProperty("user.dir");
 	public static Properties p;
 	public static Properties or;
+	public static String screenshotFileName=null;
 	
 	public static ExtentReports report = ExtentManager.getInstance();
 	public static ExtentTest test;
 	
+	
+	static
+	{
+		Date dt=new Date();
+		screenshotFileName = dt.toString().replace(":", "_").replace(" ", "_")+".png";
+	}
 	
 	public static void init() throws Exception
 	{
