@@ -59,7 +59,7 @@ public class BaseTest
 	
 	public static void launch(String browser)
 	{
-		if(browser.equalsIgnoreCase("chrome"))
+		if(p.getProperty(browser).equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", projectPath+"//Drivers//chromedriver.exe");
 			
