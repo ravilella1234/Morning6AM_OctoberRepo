@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.selenium.SampleMavenProject.listeners.Listener"/>
-    <listener class-name="com.selenium.SampleMavenProject.listeners.RetryListener"/>
-  </listeners>
-  <test name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.SampleMavenProject.listeners.TC_001">
+      <class name="excelApis.TestA">
         <methods>
-          <include name="amazonTest"/>
-          <include name="startProcess"/>
-          <include name="endProcess"/>
+          <include name="testA"/>
         </methods>
-      </class> <!-- com.selenium.SampleMavenProject.listeners.TC_001 -->
+      </class> <!-- excelApis.TestA -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

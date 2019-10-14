@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.SampleMavenProject.listeners.TC_001">
+      <class name="excelApis.TestA">
         <methods>
-          <include name="f"/>
+          <include name="testA"/>
         </methods>
-      </class> <!-- com.selenium.SampleMavenProject.listeners.TC_001 -->
+      </class> <!-- excelApis.TestA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
