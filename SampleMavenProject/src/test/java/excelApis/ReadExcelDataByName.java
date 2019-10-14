@@ -23,7 +23,7 @@ public class ReadExcelDataByName
 		
 		for(int i=0;i<row.getLastCellNum();i++)
 		{
-			if(row.getCell(i).getStringCellValue().trim().equals("UserName"))
+			if(row.getCell(i).getStringCellValue().trim().equals("Password"))
 				colNumber=i;
 		}
 		row=sheet.getRow(4);
