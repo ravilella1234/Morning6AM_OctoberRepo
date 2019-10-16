@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="excelApis.TC_003">
+      <class name="pageobjectmodel.TC_005">
         <methods>
-          <include name="f" invocation-numbers="0 1 2 3"/>
+          <include name="startProcess"/>
+          <include name="loginTest"/>
+          <include name="endProcess"/>
         </methods>
-      </class> <!-- excelApis.TC_003 -->
+      </class> <!-- pageobjectmodel.TC_005 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
