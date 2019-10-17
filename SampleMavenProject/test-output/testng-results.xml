@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16680" started-at="2019-10-16T01:30:31Z" finished-at="2019-10-16T01:30:48Z">
+  <suite name="Default suite" duration-ms="24866" started-at="2019-10-17T01:27:44Z" finished-at="2019-10-17T01:28:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16680" started-at="2019-10-16T01:30:31Z" finished-at="2019-10-16T01:30:48Z">
+    <test name="Default test" duration-ms="24866" started-at="2019-10-17T01:27:44Z" finished-at="2019-10-17T01:28:09Z">
       <class name="pageobjectmodel.TC_005">
-        <test-method status="PASS" signature="startProcess()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="startProcess" is-config="true" duration-ms="7629" started-at="2019-10-16T07:00:31Z" finished-at="2019-10-16T07:00:39Z">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="startProcess" is-config="true" duration-ms="11859" started-at="2019-10-17T06:57:44Z" finished-at="2019-10-17T06:57:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startProcess -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="loginTest" duration-ms="9009" started-at="2019-10-16T07:00:39Z" finished-at="2019-10-16T07:00:48Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="loginTest" duration-ms="12959" started-at="2019-10-17T06:57:56Z" finished-at="2019-10-17T06:58:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="endProcess" is-config="true" duration-ms="0" started-at="2019-10-16T07:00:48Z" finished-at="2019-10-16T07:00:48Z">
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:pageobjectmodel.TC_005@c46bcd4]" name="endProcess" is-config="true" duration-ms="0" started-at="2019-10-17T06:58:09Z" finished-at="2019-10-17T06:58:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endProcess -->
